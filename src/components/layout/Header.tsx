@@ -1,9 +1,10 @@
 import { ConnectWallet } from "@thirdweb-dev/react";
+import Container from "./Container";
 
 function Header() {
     return (
         <div className="bg-slate-900 text-white">
-            <div className="container mx-auto p-4 md:px-16">
+            <Container>
                 <div className="flex justify-between items-center">
                     <div>
                         <span className="uppercase text-xl font-semibold">Kammoros NFT Mint</span>
@@ -12,7 +13,7 @@ function Header() {
                         <ConnectWallet accentColor="#f97316" colorMode="light"/>
                     </div>
                 </div>
-            </div>
+            </Container>
         </div>
     )
 }

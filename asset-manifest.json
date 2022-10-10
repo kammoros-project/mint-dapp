@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mint-dapp/static/css/main.bebdc2ba.css",
-    "main.js": "/mint-dapp/static/js/main.3f2da4e7.js",
+    "main.css": "/mint-dapp/static/css/main.4946deb9.css",
+    "main.js": "/mint-dapp/static/js/main.14ce002d.js",
     "static/js/874.1cdbb323.chunk.js": "/mint-dapp/static/js/874.1cdbb323.chunk.js",
     "static/js/799.be0826ad.chunk.js": "/mint-dapp/static/js/799.be0826ad.chunk.js",
     "static/js/519.a42ed651.chunk.js": "/mint-dapp/static/js/519.a42ed651.chunk.js",
@@ -41,8 +41,8 @@
     "static/js/668.0d1a5cb2.chunk.js": "/mint-dapp/static/js/668.0d1a5cb2.chunk.js",
     "static/js/280.15996ba1.chunk.js": "/mint-dapp/static/js/280.15996ba1.chunk.js",
     "index.html": "/mint-dapp/index.html",
-    "main.bebdc2ba.css.map": "/mint-dapp/static/css/main.bebdc2ba.css.map",
-    "main.3f2da4e7.js.map": "/mint-dapp/static/js/main.3f2da4e7.js.map",
+    "main.4946deb9.css.map": "/mint-dapp/static/css/main.4946deb9.css.map",
+    "main.14ce002d.js.map": "/mint-dapp/static/js/main.14ce002d.js.map",
     "874.1cdbb323.chunk.js.map": "/mint-dapp/static/js/874.1cdbb323.chunk.js.map",
     "970.a52718da.chunk.js.map": "/mint-dapp/static/js/970.a52718da.chunk.js.map",
     "737.d214e4fd.chunk.js.map": "/mint-dapp/static/js/737.d214e4fd.chunk.js.map",
@@ -69,7 +69,7 @@
     "280.15996ba1.chunk.js.map": "/mint-dapp/static/js/280.15996ba1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bebdc2ba.css",
-    "static/js/main.3f2da4e7.js"
+    "static/css/main.4946deb9.css",
+    "static/js/main.14ce002d.js"
   ]
 }

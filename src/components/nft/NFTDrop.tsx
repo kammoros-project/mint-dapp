@@ -13,7 +13,7 @@ interface INFTDrop {
 function Loading() {
     return (
         <div className="animate-pulse border bg-white/10 p-4 rounded-3xl">
-            <img src={Logo} className="" />
+            <img src={Logo} alt="Loading" />
             <h3 className="text-center text-white font-semibold text-sm">Loading</h3>
         </div>
     )

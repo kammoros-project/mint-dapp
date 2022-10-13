@@ -2,7 +2,7 @@
   "name": "mint-dapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kammoros-project.github.io/mint-dapp",
+  "homepage": "https://mint.kammorostoken.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",

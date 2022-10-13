@@ -71,9 +71,9 @@ function NFTDrop({ contractAddress, bonus }: INFTDrop) {
                         </div>
                     </div>
                     <div className="flex">
-                        <button className="bg-emerald-400 py-2 px-4 border-2 border-slate-800 rounded-tl-xl rounded-bl-xl hover:bg-emerald-500" onClick={() => handleClick(-1)}><FaMinus /></button>
-                        <div className="grow py-3 text-center border-2 border-emerald-400 rounded font-bold text-2xl text-emerald-400">{qty}</div>
-                        <button className="bg-emerald-400 py-2 px-4 border-2 border-slate-800 rounded-tr-xl rounded-br-xl hover:bg-emerald-500" onClick={() => handleClick(1)}><FaPlus /></button>
+                        <button className="bg-kammoros py-2 px-4 border-2 border-slate-800 rounded-tl-xl rounded-bl-xl hover:bg-kammoros-light" onClick={() => handleClick(-1)}><FaMinus /></button>
+                        <div className="grow py-3 text-center border-2 border-kammoros rounded font-bold text-2xl text-kammoros">{qty}</div>
+                        <button className="bg-kammoros py-2 px-4 border-2 border-slate-800 rounded-tr-xl rounded-br-xl hover:bg-kammoros-light" onClick={() => handleClick(1)}><FaPlus /></button>
                     </div>
                     <div>
                         <Web3Button
@@ -81,7 +81,7 @@ function NFTDrop({ contractAddress, bonus }: INFTDrop) {
                             action={async (contract) => await contract.erc721.claim(qty)}
                             onSuccess={(result) => alert(`Successfully minted ${result.length} NFT(s)`)}
                             onError={(error) => alert(error?.message)}
-                            accentColor="#34d399"
+                            accentColor="#00f6ff"
                         >
                             {`Mint${qty > 1 ? ` ${qty}` : ""}${activeClaimCondition?.price.eq(0)
                                     ? " (Free)"

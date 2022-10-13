@@ -6,7 +6,7 @@ function Promotion() {
     return (
         <div>
             <Container>
-                <div className="p-4 border-2 border-emerald-400 rounded text-slate-100">
+                <div className="p-4 border-2 border-kammoros rounded text-slate-100">
                     <div className="flex justify-between items-center">
                         <div>
                             <span className="font-semibold uppercase underline">Pre-launch bonus tokens</span>

@@ -4,15 +4,15 @@ import Multiwrap from './Multiwrap'
 import MyNFT from './MyNFT'
 
 function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ')
 }
 
 export default function Page() {
 
-    const tabs = [
-        { name: "Mint", child: <Multiwrap />},
-        { name: "My NFTs", child: <MyNFT />},
-    ]
+  const tabs = [
+    { name: "Mint", child: <Multiwrap /> },
+    { name: "My NFTs", child: <MyNFT /> },
+  ]
 
   return (
     <Container>
@@ -42,6 +42,9 @@ export default function Page() {
           ))}
         </Tab.Panels>
       </Tab.Group>
-      </Container>
+      <div className='mt-16 text-center text-slate-50 uppercase'>
+        <h3><span className='underline'>EARN PASSIVE INCOME</span> by staking on <a className="font-semibold text-blue-400 hover:underline" href="https://stake.kammorostoken.com/">stake.kammorostoken.com</a>.</h3>
+      </div>
+    </Container>
   )
 }

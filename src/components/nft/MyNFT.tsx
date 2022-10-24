@@ -1,7 +1,7 @@
 import { ThirdwebNftMedia, useAddress, useContract, useOwnedNFTs, useTransferNFT } from "@thirdweb-dev/react"
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaCross, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import contracts from "../../contracts"
 import Spin from "../support/Spin";
 
@@ -36,6 +36,7 @@ function TransferNFT({ contractAddress, tokenId }: ITransferNFT) {
     const { register, handleSubmit } = useForm();
 
     async function onSubmit(data: any) {
+        if (!address) return
         const to = data.to
         await transferNFT({ to, tokenId })
     }
